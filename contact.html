@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Get in touch about a project or collaboration. Replace the sample contact details with your own.">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="Your Name, home"><span class="wordmark-mark">YN</span><span>Your Name<span class="wordmark-detail"> / Portfolio</span></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a><a href="projects.html">Projects</a><a class="nav-contact" href="contact.html" aria-current="page">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main" class="page-wrap inner-page">
+    <div class="page-intro contact-intro"><p class="eyebrow">A good place to start</p><h1>Let's make<br><em>something matter.</em></h1><p class="lede">Tell me a little about what you're working on. I'll get back to you as soon as I can.</p><a class="contact-email" href="mailto:your.email@example.com">your.email@example.com <span aria-hidden="true">↗</span></a><p class="sample-note">Replace this example.com address and the sample social links with your own details.</p></div>
+    <section class="contact-layout" aria-label="Contact Jordan">
+      <div class="contact-aside"><span class="contact-aside-mark">✳</span><p>Open to thoughtful collaborations, good questions, and the occasional excellent coffee recommendation.</p><div><span class="eyebrow">ELSEWHERE</span><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div></div>
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error"><span class="field-error" id="name-error"></span></div>
+        <div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error"><span class="field-error" id="email-error"></span></div>
+        <div class="form-field"><label for="message">A little about your project</label><textarea id="message" name="message" rows="4" required aria-describedby="message-error"></textarea><span class="field-error" id="message-error"></span></div>
+        <button class="button button-dark" type="submit">Check your message <span aria-hidden="true">↗</span></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        <p class="form-note">This demo validates your details in the browser; it does not send or store your message.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="footer-mark" href="index.html">YN</a><p>Thoughtful work, made with care.</p><span>© <span data-year>2026</span> Your Name</span></footer>
+</body>
+</html>
